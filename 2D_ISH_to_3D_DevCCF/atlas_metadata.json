@@ -1,0 +1,899 @@
+{
+    "E11.5": {
+        "sagittal": {
+            "standard_size": {
+                "width": 8832.0,
+                "height": 9497.6
+            },
+            "atlas": {
+                "path": "E11.5/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    345,
+                    371,
+                    158
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 9600.0,
+                "height": 9600.0
+            },
+            "atlas": {
+                "path": "E11.5/coronal/atlasVolume.nii.gz",
+                "size": [
+                    600,
+                    600,
+                    309
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.159816,
+                    0.0151561,
+                    -1.00399,
+                    0.437843,
+                    1.07334,
+                    -0.0961956,
+                    -1.06962,
+                    0.408105,
+                    0.315819,
+                    2752.0,
+                    2960.0,
+                    1400.0,
+                    2041.13,
+                    1642.36,
+                    1591.1
+                ],
+                "fixed_parameters": [
+                    2752.0,
+                    2960.0,
+                    1400.0
+                ]
+            }
+        }
+    },
+    "E13.5": {
+        "sagittal": {
+            "standard_size": {
+                "width": 10598.4,
+                "height": 12921.6
+            },
+            "atlas": {
+                "path": "E13.5/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    552,
+                    673,
+                    340
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12000.0,
+                "height": 12000.0
+            },
+            "atlas": {
+                "path": "E13.5/coronal/atlasVolume.nii.gz",
+                "size": [
+                    750,
+                    750,
+                    330
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    0.0301752,
+                    -0.0663955,
+                    -1.14551,
+                    0.331859,
+                    0.944104,
+                    -0.217238,
+                    -0.925947,
+                    0.328456,
+                    -0.059416,
+                    4400.0,
+                    5376.0,
+                    3220.0,
+                    1302.0,
+                    459.964,
+                    1446.15
+                ],
+                "fixed_parameters": [
+                    4400.0,
+                    5376.0,
+                    3220.0
+                ]
+            }
+        }
+    },
+    "E15.5": {
+        "sagittal": {
+            "standard_size": {
+                "width": 13516.8,
+                "height": 18854.4
+            },
+            "atlas": {
+                "path": "E15.5/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    704,
+                    982,
+                    386
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 16000.0,
+                "height": 16000.0
+            },
+            "atlas": {
+                "path": "E15.5/coronal/atlasVolume.nii.gz",
+                "size": [
+                    1000,
+                    1000,
+                    380
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.00480721,
+                    0.0266265,
+                    -1.00339,
+                    0.191022,
+                    0.966358,
+                    -0.0839738,
+                    -0.95909,
+                    0.0923042,
+                    -0.00905307,
+                    5616.0,
+                    7840.0,
+                    3680.0,
+                    2308.57,
+                    -21.5784,
+                    1124.92
+                ],
+                "fixed_parameters": [
+                    5616.0,
+                    7840.0,
+                    3680.0
+                ]
+            }
+        }
+    },
+    "E16.5": {
+        "sagittal": {
+            "standard_size": {
+                "width": 13516.8,
+                "height": 9100.0
+            },
+            "atlas": {
+                "path": "E16.5/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    704,
+                    460,
+                    386
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 16000.0,
+                "height": 6700.0
+            },
+            "atlas": {
+                "path": "E16.5/coronal/atlasVolume.nii.gz",
+                "size": [
+                    1000,
+                    420,
+                    380
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.00480721,
+                    0.0266265,
+                    -1.00339,
+                    0.191022,
+                    0.966358,
+                    -0.0839738,
+                    -0.95909,
+                    0.0923042,
+                    -0.00905307,
+                    5616.0,
+                    7840.0,
+                    3680.0,
+                    2308.57,
+                    -21.5784,
+                    1124.92
+                ],
+                "fixed_parameters": [
+                    5616.0,
+                    7840.0,
+                    3680.0
+                ]
+            }
+        }
+    },
+    "E18.5": {
+        "sagittal": {
+            "standard_size": {
+                "width": 13014.4,
+                "height": 8288.0
+            },
+            "atlas": {
+                "path": "E18.5/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    581,
+                    370,
+                    278
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12326.0,
+                "height": 10272.0
+            },
+            "atlas": {
+                "path": "E18.5/coronal/atlasVolume.nii.gz",
+                "size": [
+                    770,
+                    642,
+                    420
+                ],
+                "spacing": [
+                    16.0,
+                    16.0,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    0.0812092,
+                    0.0240864,
+                    -1.08695,
+                    -0.0671814,
+                    1.09489,
+                    0.0899757,
+                    -1.05631,
+                    -0.000788585,
+                    -0.0813296,
+                    4640.0,
+                    2944.0,
+                    2600.0,
+                    1732.42,
+                    2476.21,
+                    1466.38
+                ],
+                "fixed_parameters": [
+                    4640.0,
+                    2944.0,
+                    2600.0
+                ]
+            }
+        }
+    },
+    "P4": {
+        "sagittal": {
+            "standard_size": {
+                "width": 16979.8272,
+                "height": 9451.4784
+            },
+            "atlas": {
+                "path": "P4/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    724,
+                    403,
+                    398
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -160.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12326.0,
+                "height": 10272.0
+            },
+            "atlas": {
+                "path": "P4/coronal/atlasVolume.nii.gz",
+                "size": [
+                    719,
+                    600,
+                    512
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    20.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    20.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.0259291,
+                    -0.0618022,
+                    -1.08,
+                    -0.0188673,
+                    1.03947,
+                    -0.0236463,
+                    -0.979329,
+                    0.030287,
+                    -0.00744672,
+                    6047.47,
+                    3367.15,
+                    3800.0,
+                    -171.799,
+                    1475.3,
+                    1031.23
+                ],
+                "fixed_parameters": [
+                    6047.47,
+                    3367.15,
+                    3800.0
+                ]
+            }
+        }
+    },
+    "P14": {
+        "sagittal": {
+            "standard_size": {
+                "width": 17291.4144,
+                "height": 10213.6944
+            },
+            "atlas": {
+                "path": "P14/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    794,
+                    469,
+                    390
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -200.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12326.0,
+                "height": 10272.0
+            },
+            "atlas": {
+                "path": "P14/coronal/atlasVolume.nii.gz",
+                "size": [
+                    719,
+                    600,
+                    512
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    25.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.0195884,
+                    -0.0505528,
+                    -1.0388,
+                    -0.0189683,
+                    1.00491,
+                    -0.0125501,
+                    -1.02225,
+                    0.0412378,
+                    0.0153882,
+                    6633.79,
+                    3919.97,
+                    4650.0,
+                    -752.37,
+                    865.893,
+                    1687.13
+                ],
+                "fixed_parameters": [
+                    6633.79,
+                    3919.97,
+                    4650.0
+                ]
+            }
+        }
+    },
+    "P28": {
+        "sagittal": {
+            "standard_size": {
+                "width": 18794.0688,
+                "height": 10453.248
+            },
+            "atlas": {
+                "path": "P28/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    863,
+                    480,
+                    418
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    -200.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12326.0,
+                "height": 10272.0
+            },
+            "atlas": {
+                "path": "P28/coronal/atlasVolume.nii.gz",
+                "size": [
+                    719,
+                    600,
+                    516
+                ],
+                "spacing": [
+                    16.752,
+                    16.752,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    25.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    -0.0228616,
+                    -0.013888,
+                    -0.978289,
+                    -0.0327493,
+                    0.957563,
+                    -0.0198531,
+                    -0.983372,
+                    0.0110455,
+                    0.0348474,
+                    7220.11,
+                    4003.73,
+                    5000.0,
+                    -1270.87,
+                    774.056,
+                    1431.85
+                ],
+                "fixed_parameters": [
+                    7220.11,
+                    4003.73,
+                    5000.0
+                ]
+            }
+        }
+    },
+    "P56": {
+        "sagittal": {
+            "standard_size": {
+                "width": 20100.7248,
+                "height": 10997.688
+            },
+            "atlas": {
+                "path": "P56/sagittal/atlasVolume.nii.gz",
+                "size": [
+                    528,
+                    320,
+                    456
+                ],
+                "spacing": [
+                    25.0,
+                    25.0,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        },
+        "coronal": {
+            "standard_size": {
+                "width": 12326.0,
+                "height": 10272.0
+            },
+            "atlas": {
+                "path": "P56/coronal/atlasVolume.nii.gz",
+                "size": [
+                    456,
+                    320,
+                    528
+                ],
+                "spacing": [
+                    25.0,
+                    25.0,
+                    25.0
+                ],
+                "origin": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "canonical_to_atlas_transform": {
+                "transform_type": "CenteredAffineTransform",
+                "parameters": [
+                    0.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    1.0,
+                    0.0,
+                    -1.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    13175.0
+                ],
+                "fixed_parameters": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            }
+        }
+    }
+}
