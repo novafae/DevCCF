@@ -1,0 +1,112 @@
+clear
+close all
+% Basic inputs
+Sorce_folder = 'F:\20210209_14_31_53_HB_HB334_F_18mo_nNOS-Ai14_bckgrnd488_nNOS594_lectin647_4x_2um_LRhst_Transfer'; % This one "refered" to be SSD
+Working_folder = 'F:\testing_HB334'; % This one "have" to be SSD that is double of the data size, non-SSD will make it 10x slower
+channel_for_stitching = 2; % The channel used for stitching, ie, C00 -> 0
+
+
+% Settings
+
+% Other Settings
+%which_micro_scope = 2;
+% 1 for core la-vision lightsheet
+% 2 for kim lab life-canvas lightsheet
+%pixel_resolution_for_life_canvas = 0.411; % Use this lien to manually input resolution %in um  1.82 or 0.411
+
+
+
+
+
+making_shrink_after_stitching = 1; %can only mak shrink if you chosed to make tif above
+shrink_ratio = [20, 1];  % [10 1] means 10x downsizing on XY and 1x downsizing on Z
+
+minmum_cores = 1;
+inverting_x_y = 1; % Just put 1. Putting 0 do not work, this function is still under wokingg
+warning('off','all');
+
+delete_tif_in_working_folder = 1;
+delete_pre_stitched_npy = 1;
+delete_stitched_npy = 1;
+copy_data_to_working_drive = 0;
+recalculate_y_normalization = 0;
+hard_fix_empty_space = 1;
+
+tile_y_gausian_sigma(1) = 1.0673e+03;
+tile_y_gausian_mu(1) = 906.5935;
+tile_y_gausian_sigma(2) = 1.0673e+03;
+tile_y_gausian_mu(2) = 906.5935;
+
+z_truncate = 200;
+shift_allowed = 30;
+[optimizer, metric] = imregconfig('monomodal');
+thresh_hold_percent_0 =0.05;
+ curvitting_algrithm = 'smooth_spline';
+smooth_index = 8;
+
+optimizer.MaximumStepLength = 0.35;
+optimizer.MaximumIterations = 500;
+optimizer.RelaxationFactor = 0.6;
+
+
+tic
+file_naming_scheme;
+read_meta_data;
+file_indexing;
+toc
+
+if recalculate_y_normalization
+    tic
+    tile_normalization_re;
+    toc
+end
+
+
+tic
+wably_stitcher_re;
+toc
+
+
+tic
+shifting_inndex_optimizaer;
+toc
+% finalizing_shifting_index;
+% finalizing_shifting_index_inverse;
+
+
+
+% figure;plot(center_points.xxx_shift([2 4 6 8],:)','DisplayName','center_points.xxx_shift')
+% figure;plot(center_points.yyy_shift([2 4 6 8],:)','DisplayName','center_points.yyy_shift')
+
+
+tic
+stitching_for_real;
+% stitching_for_2_color;
+toc
+
+% 
+% figure;plot(center_points.xxx_shift([2 4 6 8],:)','DisplayName','center_points.xxx_shift')
+% figure;plot(center_points.yyy_shift([2 4 6 8],:)','DisplayName','center_points.yyy_shift')
+
+
+%%% archival
+
+%tera_stitcher_re;
+% maximum_cores = 60;
+
+% [~, system_memory] = memory;
+% memory_cap = system_memory.PhysicalMemory.Available.*0.9;
+% num_of_cores_stc = 28;
+% memory_modulation_ws = 3.0;
+
+
+
+
+
+
+
+
+
+
+
+

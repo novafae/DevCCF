@@ -1,0 +1,8 @@
+numpy
+scipy
+scikit-image
+tifffile
+PyWavelets
+tqdm
+pathlib2
+dcimg
