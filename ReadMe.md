@@ -8,8 +8,9 @@ This Repository contains a partial set of in house code used in creating the Dev
   - Facilitates the registration of multimodal brain imaging data using the ANTs software (`antsRegistration`) by aligning 3D template landmarks
 - **2D ISH to 3D DevCCF**
   - Code for aligning 2D Allen Developing Mouse Brain Altas (AMDBA) ISH datasets to the DevCCF
-- [**LSFM Image Stitcher**](https://github.com/yongsookimlab/LSFM_Image_Stitcher) *(Link goes to repository)*
+- **LSFM Image Stitcher**
   - This code is designed to stitch together images taken by light sheet fluorescence microscopy (LSFM) using SmartSPIM (product of LifeCanvas Technologies). It takes raw TIF (.tif) files from the SmartSPIM system and stitches them together based on the best cross matching coordinates. The code calls on ImageJ for image processing.
+  - See `20220331_YTW_BetterStitcher` Folder
 - [**DevCCF to CCFv3 mapping for Figure 5**](https://github.com/AllenInstitute/DevCCF_CCFv3_mapping) *(Link goes to repository)*
   - Code for generating analyses for Figure 5 mapping DevCCF and CCFv3 annotations to one another.
 
